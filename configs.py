@@ -12,11 +12,11 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
+    ABOUT_BOT_TEXT = """<b>This is Message or Links Search Bot.
     
     
     
-🤖 My Name: <a href='https://t.me/Botfather'>Lin Search Bot</a>
+🤖 My Name: <a href='https://t.me/DTG_LINKS_BOT'>DTG LINKS BOT</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -24,7 +24,7 @@ class Config(object):
 
 📡 Server: <a href='koyeb.com'>Koyeb</a>
 
-👨‍💻 Created By: <a href='https://t.me/GreyMatter_Bot'>GreyMatter's Bot</a></b>
+👨‍💻 Deployed By: <a href='https://t.me/DTG_BOTS'>DTG BOTS</a></b>
 """
 
     ABOUT_HELP_TEXT = """<b>Donation</b>
@@ -38,8 +38,7 @@ Of 10₹,20₹,30₹,50₹,100₹ 😁
 
 💸Payment Methods:
 Only UPI
-UPI:-</b> greymatter658@ybl
--<b> <a href=https://www.telegram.dog/greymatters_about>Donation Link</a></b>
+@DTG_ADMIN_BOT
 """
 
     HOME_TEXT = """
@@ -49,7 +48,7 @@ I'm Link Search Bot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @GreyMatter_Bots</a></b>
+<a>Made With ❤ By @DTG_BOTS</a></b>
 """
 
 
@@ -60,6 +59,6 @@ I'm Link Search Bot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @GreyMatter_Bots</a></b>
+<a>Made With ❤ By @DTG_BOTS</a></b>
 """
 
