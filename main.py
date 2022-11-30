@@ -37,9 +37,9 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-		[InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')
-	 ],[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/GreyMatter_Bots"), 
-             InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")]
+            [InlineKeyboardButton("Our Channel", url="https://t.me/YETFLIX"),
+             InlineKeyboardButton("Our Group", url="https://t.me/all_movie_search_bot"), 
+             InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
 
